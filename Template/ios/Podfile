@@ -36,20 +36,5 @@ target 'andytemplate' do
 
 
 
-  target 'TenhoFeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
   use_native_modules!
-end
-
-target 'andytemplate-tvOS' do
-  # Pods for andytemplate-tvOS
-
-  target 'andytemplate-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
